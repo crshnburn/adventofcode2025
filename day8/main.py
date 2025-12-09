@@ -212,9 +212,6 @@ def main():
     print(f"Part 2: {last_nodes[0][0] * last_nodes[1][0]}")
     
 
-
-
-
 if __name__ == "__main__":
     main()
 

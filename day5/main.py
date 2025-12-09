@@ -67,7 +67,7 @@ def count_numbers_in_ranges(ranges):
         Integer count of unique numbers covered by the ranges
     
     Example:
-        ranges = ["3|5", "10|14", "16|20", "12|18"]
+        ranges = ["3-5", "10-14", "16-20", "12-18"]
         Returns 14 (numbers: 3,4,5,10,11,12,13,14,16,17,18,19,20 = 13 unique, but overlapping ranges merge)
     """
     if not ranges:
